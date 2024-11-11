@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="#">
+        <input id="email1" type="text" placeholder="Enter your email">
+        <input id="password2" type="password" placeholder="Enter your password">
+        <a href="#">Forgot password?</a>
+      <input id="login" type="button" class="button"  value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</a></label>
+        </span>
+      </div>
+    </div>
+    <div class="registration form">
+      <header id="signupbtn">Signup</header>
+      <form action="#">
+        <input id="email" type="text" placeholder="Enter your email">
+        <input id="password" type="password" placeholder="Create a password">
+        <!-- <input id="Confirm password" type="password" placeholder="Confirm your password"> -->
+        <input id="signupbtn" type="button" class="button" value="Signup">
+      </form>
+      <div class="signup">
+         <span class="signup">Sign in with Google
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+    
+
+    
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="form.js"></script>
+</body>
+</html>
